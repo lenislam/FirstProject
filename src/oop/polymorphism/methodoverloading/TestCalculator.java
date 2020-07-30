@@ -8,7 +8,7 @@ public class TestCalculator {
         Calculator calculator=new Calculator();
         calculator.doSummation(39,76);
         calculator.doSummation(59,45,80);
-        calculator.doSummation("Mujahid",47,35 );
+        calculator.doSummation("Mujahid",45,70);
     }
 
 }

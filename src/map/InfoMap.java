@@ -14,15 +14,19 @@ public class InfoMap {
     public static void main(String[] args) {
         Map<String,String> stateMap=new HashMap<>();
     stateMap.put("USA","DC");
-    stateMap.put("Canada","Toronto");
-    stateMap.put("Australia","Sydney");
+    stateMap.put("Canada","Ottawa");
+    stateMap.put("Australia","Canberra");
     stateMap.put("Bangladesh","Dhaka");
-    stateMap.put("India","Delhi");
-    stateMap.put("Pakistan","Lahore");
+    stateMap.put("India","New Delhi");
+    stateMap.put("Pakistan","Islamabad");
 
 // Retrieve value from Map
         for (Map.Entry<String,String> entry:stateMap.entrySet()){
             System.out.println(entry.getKey()+":"+entry.getValue());
+        }
+        System.out.println("=======================");
+        for (Map.Entry<String,String> entry:stateMap.entrySet()){
+            System.out.println(entry.getKey());
         }
 
         System.out.println(stateMap.get("Bangladesh"));
@@ -31,7 +35,7 @@ public class InfoMap {
         pizzaTypePrice.put("Pizza",20);
         pizzaTypePrice.put("Pizza",30);
         pizzaTypePrice.put("Pizza",10);
-        pizzaTypePrice.put("Pizza",40);
+        pizzaTypePrice.put("Pizza",50);
 
         for (Map.Entry<String,Integer> st: pizzaTypePrice.entrySet()) {
             System.out.println(st.getKey()+":"+st.getValue());

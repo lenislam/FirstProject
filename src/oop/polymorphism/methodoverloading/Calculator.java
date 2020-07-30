@@ -20,7 +20,7 @@ public class Calculator {
 
     public int doSummation(String name, int number1,int number2){
         int sum =number1+number2;
-        System.out.println("Summation value is "+sum +" "+"For James");
+        System.out.println("Summation value is "+sum+ " "+"Mujahid");
         return sum;
     }
 

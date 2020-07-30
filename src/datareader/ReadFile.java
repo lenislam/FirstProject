@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class ReadFile {
-    public ReadFile(String filePath) {
+    public ReadFile(String filePath) { // create "String filePath later
 
     }
 
@@ -15,7 +15,7 @@ public class ReadFile {
     //String filePath="C:\\Users\\lenis\\IdeaProjects\\FirstProject\\src\\datareader\\Sample.txt";
 
     public static void main(String[] args) throws FileNotFoundException {
-        String filePath="src\\datareader\\Sample.txt";
+        String filePath= "src\\datareader\\Sample.txt"; // Check with this another file"src\\map\\TestReader.txt";
         new ReadFile(filePath);
 
         FileReader fileReader=null;

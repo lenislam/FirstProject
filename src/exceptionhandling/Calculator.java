@@ -9,25 +9,28 @@ public class Calculator {
     public static void main(String[] args) {
         //doDiv(0,0);
         doDiv(20,30);
+        Calculator.doDiv1();
         Calculator.doDiv();
-    }
-    public static void doDiv() {
-        try {
-            int num1 = 45;
-            int num2 = 10;
-            int div = num1 / num2;
-            System.out.println("The value is " + div);
-        } catch (Exception e) {
-            // e.printStackTrace();
-            System.out.println("This is Arethmatic ");
-        }finally {
-            System.out.println("This is Division Final result ");
-        }
+
     }
     public static void doDiv1() {
-            int num1 = 45;
-            int num2 = 10;
-            int div = num1 / num2;
+        double num1 = 45;
+        double num2 = 10;
+        double div = num1 / num2;
+        System.out.println("The value is " + div);
+    }
+       public static void doDiv() {
+        try {
+            //int num1 = 45;
+           // int num2 = 10;
+            int div = 45/0;
             System.out.println("The value is " + div);
+        } catch (Exception e) {
+            //e.printStackTrace();
+            System.out.println(e);
+        }finally {
+            System.out.println("It always run");
         }
+    }
+
     }

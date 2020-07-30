@@ -6,7 +6,7 @@ public class Pizza {
     public String pizzaName="American Pizza";
     public double pizzaPrice=50.50;
 
-    private String pizzaType="Meat Lever";
+    private String pizzaType="Chicken";
     private String sauceType;
     private String topping;
     private char size;

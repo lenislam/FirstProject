@@ -17,7 +17,7 @@ public class InfoArray {
         String name2 = "Zakrin";
         String name3 = "Shuvo";
         String name4 = "Sharif";
-        // Arrays are used to store multiple value in a single variable instead of declaring seperate variable for each value.
+        // Arrays are used to store multiple value in a single variable instead of declaring separate variable for each value.
         System.out.println(name3);
 
         String name5;
@@ -38,6 +38,22 @@ public class InfoArray {
         System.out.println(stName.length);
         System.out.println("========================");
         //System.out.println("Student name is " + stName[6]);
+
+        for (int i = 0; i < stName.length; i++) {
+            System.out.println("Students name :" + stName[i]);
+        }
+        //For each loop
+        // for (type variable : arrayName) {   }
+        for (String st : stName) {
+            System.out.println("Student name is: " + st);
+        }
+        System.out.println("=====================================");
+        for (int i = 0; i < stName.length; i++) {
+            if (stName[i] == "Selim") {
+                System.out.println("Your name is " + stName[i]);
+            }
+        }
+
         try {
             System.out.println("Student name is " + stName[6]);
         } catch (Exception e) {
@@ -49,39 +65,25 @@ public class InfoArray {
             System.out.println("Index Out Of Bounds Exception");
         }
 
-        for (int i = 0; i<stName.length; i++){
-            System.out.println("Students name :" + stName[i]);
-        }
-        //For each loop
-        // for (type variable : arrayName) {   }
-        for (String st:stName){
-            System.out.println("Student name is: "+st);
-
-        }
-        System.out.println("=====================================");
-        for (int i=0; i<stName.length;i++){
-            if (stName[i]=="Selim") {
-                System.out.println("Your name is " + stName[i]);
-            }
-        }
         System.out.println("======================================");
         //Declare Arrays with Length
-        String [] studentAddress=new String[6];
+        String[] studentAddress = new String[6];
         System.out.println(studentAddress.length);
-        studentAddress[0]="NY USA";
-        studentAddress[1]="FL USA";
-        studentAddress[2]="CA USA";
-        studentAddress[3]="VA USA";
-        studentAddress[4]="TX USA";
-        studentAddress[5]="WA USA";
+        studentAddress[0] = "NY USA";
+        studentAddress[1] = "FL USA";
+        studentAddress[2] = "CA USA";
+        studentAddress[3] = "VA USA";
+        studentAddress[4] = "TX USA";
+        studentAddress[5] = "WA USA";
         System.out.println(studentAddress[5]);
 
         //Retrieve value by using for each loop
-        for (String obj:studentAddress) {
-            System.out.println("Student Address"+ obj);
+        for (String obj : studentAddress) {
+            System.out.println("Student Address" + obj);
+//        }
+            //String[] studentName;
+            //Single Dimensional Array
         }
-     //String[] studentName;
-        //Single Dimensional Array
     }
 
 }
