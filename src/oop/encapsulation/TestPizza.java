@@ -7,6 +7,7 @@ public class TestPizza {
         String m= mujahidPizza.pizzaName="scicilian";
         System.out.println("Mujahid love to eat "+m +" pizza");
 
+
         Pizza islamPizza=new Pizza("Checken with chesse");// Pass the argument
         islamPizza.pizzaPrice=40.50;
         System.out.println(islamPizza.pizzaPrice);
@@ -16,6 +17,8 @@ public class TestPizza {
         mujahidPizza.setSauceType("Hot");
         mujahidPizza.setTopping("Chicken");
         System.out.println("Sauce type is "+mujahidPizza.getSauceType()+"Topping is "+mujahidPizza.getTopping());
+        mujahidPizza.isAvailable();
+        System.out.println(mujahidPizza.isAvailable());
 
     }
 }

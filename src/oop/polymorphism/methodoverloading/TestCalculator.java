@@ -1,4 +1,6 @@
-package oop.polymorphism;
+package oop.polymorphism.methodoverloading;
+
+import oop.polymorphism.methodoverloading.Calculator;
 
 public class TestCalculator {
 

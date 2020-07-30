@@ -1,5 +1,7 @@
 package mentoring.slide;
 
+
+
 public class ArrayFirst {
     // Array : To store similar data type value in a array variable
 
@@ -64,10 +66,12 @@ public class ArrayFirst {
             obj[4] = "M";
             obj[5] = "London";
             //System.out.println(obj[4]);
+//            for (int j = 0; j < i.length; j++) {
+//                System.out.println(i[j]);
 
-            for (String ob:obj) {
-
-            }
+//            for (int i = 0; i<arr.length; i++){
+//
+//            }
 
 //            String studentRecord[][] = new String[4][4];
 //
