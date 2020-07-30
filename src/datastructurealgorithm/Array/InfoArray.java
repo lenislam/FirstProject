@@ -80,7 +80,8 @@ public class InfoArray {
         for (String obj:studentAddress) {
             System.out.println("Student Address"+ obj);
         }
-
+     //String[] studentName;
+        //Single Dimensional Array
     }
 
 }

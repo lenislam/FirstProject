@@ -6,13 +6,11 @@ public class Calculator {
         double result=val1/val;
         System.out.println("The division value is "+result);
     }
-
     public static void main(String[] args) {
         //doDiv(0,0);
         doDiv(20,30);
         Calculator.doDiv();
     }
-
     public static void doDiv() {
         try {
             int num1 = 45;
@@ -32,8 +30,4 @@ public class Calculator {
             int div = num1 / num2;
             System.out.println("The value is " + div);
         }
-
-
     }
-
-
