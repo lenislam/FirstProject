@@ -1,9 +1,15 @@
 package project;
 
 public class InfoFirst {
-    public String name = "Ali";
 
+    public static void main(String[] args) {
 
-    public InfoFirst() {
+         class Acc2 {
+         private int sum = 0;
+         int getSum() {
+         return sum;
+            }
+        }
     }
+
 }
