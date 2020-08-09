@@ -5,13 +5,14 @@ public class Students {
     private String firstName;
     private String lastName;
     private String contactNumber;
+    private String grade;
 
-
-    public Students(int id, String firstName, String lastName, String contactNumber) {
+    public Students(int id, String firstName, String lastName, String contactNumber, String grade) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.contactNumber = contactNumber;
+        this.grade = grade;
     }
 
     public int getId() {
@@ -28,5 +29,9 @@ public class Students {
 
     public String getContactNumber() {
         return contactNumber;
+    }
+
+    public String getGrade() {
+        return grade;
     }
 }

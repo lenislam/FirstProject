@@ -1,0 +1,3 @@
+String url="jdbc:mysql://localhost:3306/pnt_mujahid?serverTimezone=UTC"; //pnt_mujahid is scehams
+        String user = "root";
+        String password = "shohel_SHIPON20";
